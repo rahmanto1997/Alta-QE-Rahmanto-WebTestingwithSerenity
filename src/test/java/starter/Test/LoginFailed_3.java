@@ -23,6 +23,6 @@ public class LoginFailed_3 {
 
     @Then("I am not login")
     public void i_am_not_login() {
-        loginStepsFailed_3.inputInvalidUsernameandPassword();
+        loginStepsFailed_3.valdate();
     }
 }

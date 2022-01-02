@@ -1,4 +1,4 @@
-Feature: Login
+Feature: Book
   As a Bookstore Web API
   I want to see my timeline
   So that I can see bookstore
@@ -14,9 +14,3 @@ Feature: Login
     Given I am success login
     When I am create list book
     Then I am success add book
-
-  @DeleteListBook
-  Scenario: Delete List Book Success
-    Given I am success login in the bookstore
-    When I am delete book
-    Then I am success delete book

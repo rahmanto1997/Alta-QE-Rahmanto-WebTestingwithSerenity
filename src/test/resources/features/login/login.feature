@@ -26,3 +26,9 @@ Feature: Login
     Given I am on the Login Page
     When I enter my invalid username and password
     Then I am not login
+
+    @LoginFailed_4
+    Scenario: Login Failed_4
+      Given I am in the Login Page
+      When I am only fill username
+      Then I am not login page
